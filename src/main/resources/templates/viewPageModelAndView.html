@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>제목 1</title>
+</head>
+<body>
+      <h1 th:text="${msg1}"></h1>
+      <h2 th:text="${msg2}"></h2>
+      <p th:text="${msg3}"></p>
+      <p th:text="${msg4}"></p>
+      <ol><li th:each="item : ${fList}" th:text="${item}"></li></ol>
+</body>
+</html>

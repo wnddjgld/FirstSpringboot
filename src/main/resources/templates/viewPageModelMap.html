@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ModelMap의 사용 예제</title>
+</head>
+<body>
+    <h1 th:text="${message1}"></h1>
+    <h2 th:text="${message2}"></h2>
+    <ul>
+        <li th:each="item : ${fruitsList}" th:text="${item}"></li>
+    </ul>
+</body>
+</html>
